@@ -1,2 +1,7 @@
 */a.out
 batchQ-simulated/log.txt
+learn-grpc/*
+!learn-grpc/Makefile
+!learn-grpc/mathtest.proto
+!learn-grpc/server.cc
+!learn-grpc/client.cc
