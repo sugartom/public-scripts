@@ -1,0 +1,2 @@
+docker run --gpus all -it -p 50051:50051 --name container-serving -v /home/yitao/Downloads/tmp/docker-share:/home/yitao/Downloads/tmp/docker-share -v /home/yitao/Documents/fun-projects/fun-scripts:/home/yitao/Documents/fun-projects/fun-scripts sugartom/edge-publish:tf-base
+tensorflow_model_server --port=8501 --platform_config_file=/home/yitao/Documents/fun-projects/fun-scripts/test-ssd-tf1/config/platform.conf --model_config_file=/home/yitao/Documents/fun-projects/fun-scripts/test-ssd-tf1/config/tfserv.conf >out-001 2>&1 &

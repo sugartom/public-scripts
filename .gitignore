@@ -5,3 +5,4 @@ learn-grpc/*
 !learn-grpc/mathtest.proto
 !learn-grpc/server.cc
 !learn-grpc/client.cc
+**/*.pyc
